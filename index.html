@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <script src="/js/main.js" defer></script>
+</head>
+<body>
+    <div class="header">
+        <h1>To Do List</h1>
+    </div>
+    <div class="container">
+        <form class="add-item-div" id="form">
+            <input type="text" id="add-item-input" placeholder="Add items here">
+            <button class="add-item-btn" id="add-btn">
+                <i class="bi bi-arrow-return-left"></i>
+            </button>
+        </form>
+        <ul class="items" id="items">
+            <li class="item">
+                <input type="checkbox" name="" id="">
+                Item 1
+                <button class="delete" id="deleteBtn">
+                    <i class="bi bi-trash3"></i>
+                </button>
+            </li>
+            <li class="item">
+                <input type="checkbox" name="" id="">
+                Item 1
+                <button class="delete" id="deleteBtn">
+                    <i class="bi bi-trash3"></i>
+                </button>
+            </li>
+            <li class="item">
+                <input type="checkbox" name="" id="">
+                Item 1
+                <button class="delete" id="deleteBtn">
+                    <i class="bi bi-trash3"></i>
+                </button>
+            </li>
+        </ul>
+        <button class="clear">
+            <span>Clear Completed Tasks</span>
+        </button>
+    </div>
+</body>
+</html>
